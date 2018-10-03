@@ -1,0 +1,246 @@
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    background-color: #F5F5F5
+    
+    
+}
+
+*{
+    padding: 0px;
+    margin:  0px;
+        
+}
+#div1{
+    width: 100%;
+    height: 725px;
+    background: url('images/slider.jpg');
+   
+    
+    
+    
+}
+#div2 {
+    background: #34495e;
+    height: 100px;
+    width: 100%;
+    text-align: 50px;
+    line-height: 100px;
+    filter: alpha (opacity=70);
+    
+    
+        
+}
+#div2 h1 {
+    float: left;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+#div2 ul{
+    float: right;
+    
+}
+
+#div2 ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#div2 ul li a{
+    padding: 22px;
+    text-decoration: none;
+    color: white;
+    
+}
+#div2 ul li:hover{
+    background: #47b7ad;
+    transition: all 1s;
+}
+
+
+
+.myForm {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 0.8em;
+color:whitesmoke;
+width: 25em;
+padding: 2.5em;
+border: 0px solid #ccc;
+background:#34495e;
+opacity: 0.7;
+margin-right: 10%;
+margin-left: 10%;
+margin-top: 5%;
+
+
+}
+
+
+
+.myForm * {
+box-sizing: border-box;
+}
+
+.myForm fieldset {
+border: none;
+padding: 0;
+}
+
+.myForm legend,
+.myForm label {
+padding: 0;
+font-weight: bold;
+}
+
+.myForm label.choice {
+font-size: 0.9em;
+font-weight: normal;
+}
+
+.myForm input[type="text"],
+.myForm input[type="tel"],
+.myForm input[type="email"],
+.myForm input[type="datetime-local"],
+.myForm select,
+.myForm textarea {
+display: block;
+width: 100%;
+border: 1px solid #ccc;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 0.9em;
+padding: 0.3em;
+}
+
+.myForm textarea {
+height: 100px;
+}
+
+.myForm button {
+padding: 1em;
+border-radius: 0.5em;
+background: #eee;
+border: none;
+font-weight: bold;
+margin-top: 1em;
+}
+
+.myForm button:hover {
+background: #ccc;
+cursor: pointer;
+}
+.about:{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 31%;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    margin-left: 25px;
+    padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #34495e;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: #359aaa;
+}
+
+.section {
+        width: 29%;
+        float: left;
+        margin: 2%; 2%;
+        text-align: center;
+        
+        }
+ 
+footer {
+        background: #34495e;
+        width: 100%;
+        overflow: hidden;
+        
+    }
+footer p, footer h3 {
+        color: #FFFFFF;
+        
+    }
+footer p a {
+        color:#FFFFFF;
+        text-decoration: none
+    }
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+li{
+        display:inline;
+    }
+ul li img{
+        height: 50%;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
